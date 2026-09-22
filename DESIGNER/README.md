@@ -80,5 +80,51 @@ A v1.0.0 traz a evolução do protótipo desenhado à mão para uma interface di
 
 ---
 
+# Sistema de Login e Navegação em Java - v1.1.0
 
+Este repositório contém a especificação e a documentação de interface do usuário (UI/UX) para a **versão 1.1.0** da aplicação Java. Nesta versão, a interface foi aprimorada com novos ícones temáticos, atualização visual dos botões do menu e integração do mapa do jogo.
+
+---
+
+## 📌 Visão Geral da Versão (v1.1.0)
+
+A versão v1.1.0 traz uma atualização significativa nos elementos visuais do Menu Principal e das telas integradas:
+* **Ícone do Jogo:** Atualizado para o estilo Pokébola.
+* **Tela do Jogo:** Exibição do mapa estilo Pokémon (visão top-down em pixel art).
+* **Agenda de Contatos:** Representada por um ícone de Banco de Dados SQL estilizado.
+
+### 🔄 Fluxo de Navegação do Usuário
+
+ [ Tela de Login ] ──( Autenticar )──> [ Menu Principal ]
+                                            │
+                                            ├──> [ Agenda de Contatos (SQL) ]
+                                            └──> [ Jogo (Mapa Pokémon) ]
+
+---
+
+## 🖥️ Módulos e Telas do Sistema
+
+### 1. Tela de Login (`v1.1.0`)
+* **Design:** Layout vertical em tons de azul e branco com bordas arredondadas.
+* **Campos:**
+  * **Usuário:** Campo de texto com ícone de perfil e texto explicativo ("Digite seu usuário").
+  * **Senha:** Campo de senha com ícone de cadeado e botão para alternar visibilidade.
+* **Ação:** Botão principal "Entrar" que redireciona o usuário para o Menu Principal.
+
+### 2. Menu Principal (`v1.1.0`)
+* **Cabeçalho:** Barra superior azul com botão de voltar (`←`) e título "Menu Principal".
+* **Atalhos e Ícones Reorganizados:**
+  * **Agenda de Contatos:** Card com ícone de agenda roxa.
+  * **Jogo:** Card com ícone de Pokébola clássica em estilo 3D.
+
+### 3. Agenda de Contatos (`v1.1.0` - Banco de Dados SQL)
+* **Cabeçalho:** Barra de navegação "Agenda de Contatos" com botão de voltar (`←`).
+* **Visual Ilustrativo:** Ícone centralizado de banco de dados 3D em tons de azul com a etiqueta **SQL**.
+* **Descrição:** "Aqui você pode visualizar e gerenciar seus contatos."
+
+### 4. Tela do Jogo (`v1.1.0` - Mapa Pokémon)
+* **Cabeçalho:** Barra de navegação "Jogo" com botão de voltar (`←`).
+* **Ambiente de Jogo:** Renderização do mapa do jogo em pixel art (estilo clássico Pokémon), com estradas, casas, áreas aquáticas e árvores.
+
+---
 
