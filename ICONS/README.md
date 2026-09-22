@@ -6,7 +6,7 @@ Este diretório armazena todos os recursos visuais, ícones e imagens integrados
 
 ## 📦 Lista de Recursos
 
-| Arquivo | Pré-visualização | Descrição | Mapeamento no Wireframe |
+| Arquivo | Pré-visualização | Descrição | Mapeamento |
 | :--- | :---: | :--- | :--- |
 | `livro-de-contato.png` | <img src="./livro-de-contato.png" width="40"> | Ícone de caderno/livro de contatos. Representa a gestão de perfis e dados de usuário. | Cabeçalho / Abstração de Conceitos |
 | `logo sql.png` | <img src="./logo sql.png" width="40"> | Ilustração de Banco de Dados SQL em estilo 3D azul. | Painel Lateral (Ícone SQL) |
