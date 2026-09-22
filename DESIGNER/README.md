@@ -33,5 +33,52 @@ Com base no esboço conceitual, a interface divide-se nas seguintes seções:
 * **Banco de Dados:** MySQL / PostgreSQL
 
 ---
+# Sistema de Login e Navegação em Java - v1.0.0
+
+Este repositório contém a especificação e a documentação de interface do usuário (UI/UX) para a **versão 1.0.0** da aplicação Java. Nesta versão, o esboço conceitual inicial foi refinado e transformado em um design moderno, limpo e intuitivo com fluxo de telas completo.
+
+---
+
+## 📌 Visão Geral da Versão (v1.0.0)
+
+A v1.0.0 traz a evolução do protótipo desenhado à mão para uma interface digital moderna, estabelecendo um fluxo claro entre autenticação, menu principal e os módulos da aplicação.
+
+### 🔄 Fluxo de Navegação do Usuário
+
+ [ Tela de Login ] ──( Autenticar )──> [ Menu Principal ]
+                                            │
+                                            ├──> [ Agenda de Contatos ]
+                                            └──> [ Nosso Jogo ]
+
+---
+
+## 🖥️ Módulos e Telas do Sistema
+
+### 1. Tela de Login (`v1.0.0`)
+* **Design Moderno:** Layout vertical limpo, estilo *mobile/responsive*, com paleta de cores azul e cantos arredondados.
+* **Formulário de Entrada:**
+  * **Usuário:** Campo de texto com ícone indicativo e placeholder ("Digite seu usuário").
+  * **Senha:** Campo de senha com ícone de cadeado e alternador de visibilidade (exibir/ocultar senha).
+* **Ação:** Botão de destaque "Entrar".
+
+### 2. Menu Principal
+* **Cabeçalho:** Barra azul com botão de voltar (`←`) e título "Menu Principal".
+* **Mensagem de Boas-Vindas:** "Bem-vindo! Escolha uma opção abaixo."
+* **Opções de Navegação (Cards Clicáveis):**
+  * **Agenda de Contatos:** Redireciona para o gerenciamento de contatos (Ícone de agenda).
+  * **Nosso Jogo:** Redireciona para a área de entretenimento (Ícone de controle/gamepad).
+
+### 3. Agenda de Contatos
+* **Interface:** Visualização simplificada da lista/gerenciador de contatos.
+* **Descrição:** "Sua Agenda - Aqui você pode visualizar e gerenciar seus contatos."
+* **Ação Principal:** Botão em destaque "+ Adicionar Contato".
+
+### 4. Módulo "Nosso Jogo"
+* **Interface:** Tela com elementos gráficos lúdicos.
+* **Descrição:** "Vamos Jogar! Escolha suas habilidades e divirta-se com o nosso jogo."
+* **Ação Principal:** Botão de início rápido "► Iniciar Jogo" (Verde).
+
+---
+
 
 
